@@ -1,8 +1,8 @@
 const quizData = [
   {
-    question: "The variation of pressure in middle latitudes is",
+    question: "The diurnal variation of pressure in middle latitudes is",
     options: ["2 hPa", "10 hPa", "Less than 1.5 hPa"],
-    answer: "10 hPa"
+    answer: "2 hPa"
   },
   {
     question: "Lines of constant wind speed are called",
@@ -11,7 +11,7 @@ const quizData = [
   },
   {
     question: "Tamil Nadu gets maximum rainfall during",
-    options: ["SW monsoon", "Pre-monsoon", "NE monsoon"],
+    options: ["SW monsoon", "Pre monsoon", "NE monsoon"],
     answer: "NE monsoon"
   },
   {
@@ -20,269 +20,284 @@ const quizData = [
     answer: "Lapse rate"
   },
   {
-    question: "Nor'westers are frequent in",
+    question: "Norwesters are frequent in",
     options: ["May", "July", "April"],
-    answer: "April"
+    answer: "May"
   },
   {
-    question: "Tropical storms in Arabian Sea and Bay of Bengal are called",
+    question: "Tropical storms in Arabian sea and Bay of Bengal are called",
     options: ["Hurricanes", "Typhoons", "Cyclones"],
     answer: "Cyclones"
   },
   {
-    question: "If pressure is rising around a cyclone, it is termed as",
+    question: "If the pressure is rising around a cyclone, it is termed as",
     options: ["Filling", "Deepening", "Lifting"],
     answer: "Filling"
   },
   {
-    question: "Favourable area for depressions in Bay of Bengal is",
+    question: "Favourable area of formation of depressions in monsoon months over Bay of Bengal is",
     options: ["South Bay", "Head Bay", "Central Bay"],
     answer: "Head Bay"
   },
   {
-    question: "Vector difference between real wind and geostrophic wind",
+    question: "The vector difference between the real wind and geostrophic wind is",
     options: ["Ageostrophic wind", "Gradient wind", "Thermal wind"],
     answer: "Ageostrophic wind"
   },
   {
-    question: "Discontinuity between polar easterlies and westerlies",
-    options: ["Polar front", "Equatorial discontinuity", "Polar boundary"],
-    answer: "Polar front"
+    question: "The surface discontinuity between polar Easterlies and temperate Westerlies is called",
+    options: ["Polar Front", "Equatorial discontinuity", "Polar boundary"],
+    answer: "Polar Front"
   },
   {
-    question: "Nephoscope is used to observe",
+    question: "The met instrument Nephoscope is used for observing",
     options: ["Wind speed", "Cloud movement", "Cloud height"],
     answer: "Cloud movement"
   },
   {
     question: "Showery precipitation occurs from",
-    options: ["Nimbostratus", "Stratiform", "Cumuliform"],
-    answer: "Cumuliform"
+    options: ["Nimbostratus type of clouds", "Stratiform clouds", "Cumuliform clouds"],
+    answer: "Cumuliform clouds"
   },
   {
-    question: "Night wind from land to sea",
-    options: ["Anabatic", "Land breeze", "Katabatic"],
+    question: "The wind blowing in the night from land towards sea is",
+    options: ["Anabatic wind", "Land breeze", "Katabatic wind"],
     answer: "Land breeze"
   },
   {
-    question: "Bright band in CB has worst",
-    options: ["Icing", "Bumpiness", "Hail"],
+    question: "The height band between freezing level and FL 250 in a well developed CB has worst",
+    options: ["Icing", "Bumpiness", "Hail formation"],
     answer: "Icing"
   },
   {
-    question: "D value is",
-    options: ["Always negative", "Always positive", "Positive or negative"],
-    answer: "Positive or negative"
+    question: "D value (altimeter correction) is",
+    options: ["Always negative", "Always positive", "Either positive or negative"],
+    answer: "Either positive or negative"
   },
   {
-    question: "Pressure altitude of aerodrome",
+    question: "Pressure altitude of aerodrome is",
     options: ["QNH", "QNE", "QFF"],
     answer: "QNE"
   },
   {
-    question: "Water vapour holding depends on",
-    options: ["Dew point", "Temperature", "RH"],
-    answer: "Temperature"
+    question: "The amount of water vapour that air can hold depends on",
+    options: ["Dew Point", "Air Temperature", "RH"],
+    answer: "Air Temperature"
   },
   {
-    question: "Moisture added by",
-    options: ["Sublimation & condensation", "Evaporation & condensation", "Evaporation only"],
-    answer: "Evaporation & condensation"
+    question: "Moisture is added to a parcel of air by",
+    options: ["Sublimation and Condensation", "Evaporation and Condensation", "Evaporation only"],
+    answer: "Sublimation and Condensation"
   },
   {
-    question: "Pressure altimeter shows height",
-    options: ["Above MSL", "Above aerodrome", "Above standard datum"],
-    answer: "Above standard datum"
+    question: "Pressure Altimeter indicates the height of aircraft",
+    options: ["Above msl", "Above aerodrome", "Above given datum"],
+    answer: "Above given datum"
   },
   {
-    question: "Altimeter setting gives",
+    question: "Alticor is applied to the pressure altitude to get",
     options: ["Indicated altitude", "True altitude", "Aircraft elevation"],
     answer: "True altitude"
   },
   {
-    question: "QNH reduced to",
+    question: "Under ISA conditions QNH is reduced to msl",
     options: ["QFF", "QNE", "QFE"],
-    answer: "QNE"
+    answer: "QFE"
   },
   {
-    question: "Highest altitude using QNH",
+    question: "The highest altitude below which an aircraft will fly on local QNH is called Transition",
     options: ["Level", "Altitude", "Layer"],
     answer: "Altitude"
   },
   {
-    question: "Cold to warm altimeter",
+    question: "Flying from Cold to Warm area, the altimeter",
     options: ["Under reads", "Over reads", "No change"],
     answer: "Under reads"
   },
   {
-    question: "FL100 corresponds to",
-    options: ["700hPa/10000ft", "700hPa/14000ft", "700hPa/12000ft"],
-    answer: "700hPa/10000ft"
+    question: "In Contour charts the flight level 100 corresponds to",
+    options: ["700 hPa/14000 ft", "700 hPa/12000 ft", "700 hPa/10000 ft"],
+    answer: "700 hPa/10000 ft"
   },
   {
-    question: "ISA temp at 10000 ft means density altitude",
-    options: ["14000ft", "10000ft", "12000ft"],
-    answer: "10000ft"
+    question: "If at 10,000 ft the air temperature is as per ISA then the Density altitude will be",
+    options: ["14000 ft", "10000 ft", "12000 ft"],
+    answer: "10000 ft"
   },
   {
-    question: "Constant heat process",
-    options: ["Isothermal", "Isobaric", "Adiabatic"],
-    answer: "Adiabatic"
+    question: "A process in which heat content remains constant is called",
+    options: ["Isothermal process", "Isobaric process", "Adiabatic process"],
+    answer: "Adiabatic process"
   },
   {
-    question: "Vapour to liquid",
+    question: "The phase change from water vapour to water is called",
     options: ["Sublimation", "Condensation", "Deposition"],
     answer: "Condensation"
   },
   {
-    question: "Heat without temp change",
+    question: "The change of phase that requires or liberates heat without change in temperature is",
     options: ["Condensation", "Evaporation", "Latent heat"],
     answer: "Latent heat"
   },
   {
-    question: "Saturation vapour pressure depends on",
-    options: ["Pressure", "Temperature", "Condensation"],
-    answer: "Temperature"
+    question: "The saturation vapour pressure is dependent on",
+    options: ["Pressure only", "Temperature only", "Condensation only"],
+    answer: "Temperature only"
   },
   {
-    question: "Supercooled water temp",
+    question: "Supercooled water can attain a temperature of",
     options: ["-40°C", "-50°C", "-60°C"],
     answer: "-40°C"
   },
   {
-    question: "Pressure decreases faster in",
+    question: "Pressure decreases rapidly with height in",
     options: ["Warm air", "Cold air", "Both"],
     answer: "Cold air"
   },
   {
-    question: "Ice crystals form on",
+    question: "The atmospheric particles upon which ice crystals form by deposition are called",
     options: ["Freezing nuclei", "Condensation nuclei", "Sublimation nuclei"],
-    answer: "Freezing nuclei"
+    answer: "Condensation nuclei"
   },
   {
-    question: "Icing occurs in",
-    options: ["Freezing rain", "Drizzle", "Snow"],
-    answer: "Freezing rain"
+    question: "When wind blows over rough surface on the earth, it produces Turbulence, which is",
+    options: ["Mechanical only", "Frictional and mechanical both", "Frictional only"],
+    answer: "Mechanical only"
   },
   {
-    question: "Continuous rain from",
+    question: "Worst airframe icing is experienced on aircraft in flight in",
+    options: ["Freezing rain", "Freezing fog", "Snow"],
+    answer: "Freezing fog"
+  },
+  {
+    question: "Continuous rain/snow is likely to fall from cloud",
     options: ["CB", "NS", "ST"],
     answer: "NS"
   },
   {
-    question: "Freezing rain near",
+    question: "Freezing rain occurs from",
     options: ["Cold occlusion", "Cold front", "Warm front"],
     answer: "Warm front"
   },
   {
-    question: "Light rain occurs",
-    options: ["In cloud", "Outside cloud", "Cumuliform"],
-    answer: "In cloud"
+    question: "Radiation fog occurs only",
+    options: ["Over land", "Over sea", "In Clouds"],
+    answer: "Over land"
   },
   {
-    question: "Thermograph records",
-    options: ["Temperature", "Dew point", "Humidity"],
-    answer: "Temperature"
+    question: "Transmissometer provides a continuous record of",
+    options: ["Temperature", "RVR (Runway Visual Range)", "Relative humidity"],
+    answer: "RVR (Runway Visual Range)"
   },
   {
-    question: "Steam fog forms from",
-    options: ["Warm over cold", "Cold over cold", "Cold over warm"],
-    answer: "Cold over warm"
+    question: "Steaming fog is likely to form due to advection of",
+    options: ["Warm air over cold land", "Cold air over cold sea", "Cold air over warm sea"],
+    answer: "Cold air over warm sea"
   },
   {
-    question: "Wind speed left downstream",
-    options: ["Anticyclonic", "Cyclonic", "Neutral"],
-    answer: "Anticyclonic"
+    question: "Increasing wind speed to the left downstream indicates",
+    options: ["Anticyclonic vorticity", "Cyclonic vorticity", "Convergence"],
+    answer: "Anticyclonic vorticity"
   },
   {
-    question: "Wind increase & close isobars",
-    options: ["Convergence", "Divergence", "Velocity"],
+    question: "When wind speed decreases downstream and isobars close up, it indicates",
+    options: ["Vorticity", "Convergence", "Divergence"],
     answer: "Convergence"
   },
   {
-    question: "CAT linked to",
-    options: ["Unstable air", "Inversion", "Wind shear"],
+    question: "CAT is associated with",
+    options: ["Unstable atmosphere", "Inversion", "Wind shear"],
     answer: "Wind shear"
   },
   {
-    question: "Winter hemisphere pressure",
-    options: ["Low", "High", "Neutral"],
-    answer: "High"
+    question: "Jet streams form due to",
+    options: ["Thermal gradient", "Wind gradient", "Pressure gradient"],
+    answer: "Thermal gradient"
   },
   {
-    question: "Tropical storms NOT in",
-    options: ["N Atlantic", "S Pacific", "South Atlantic"],
-    answer: "South Atlantic"
+    question: "When cold air mass displaces warm air mass the front that forms is",
+    options: ["Occluded front", "Cold front", "Warm front"],
+    answer: "Cold front"
   },
   {
-    question: "Mascarene Islands distance",
-    options: ["3000km N", "4000km S", "5000km W"],
-    answer: "4000km S"
+    question: "Cold sector clouds in a frontal depression are",
+    options: ["CU, CB, NS", "AC, AS", "CU, CB, AS, NS, CS, CI"],
+    answer: "CU, CB, AS, NS, CS, CI"
   },
   {
-    question: "Mascarene Islands located in",
-    options: ["N Atlantic", "W Pacific", "Indian Ocean"],
-    answer: "Indian Ocean"
+    question: "The air mass that affects India in winters is",
+    options: ["Tc", "Em", "Pm"],
+    answer: "Tc"
   },
   {
-    question: "Positive IOD causes",
-    options: ["More rain", "Less rain", "No change"],
-    answer: "More rain"
+    question: "What type of air movement is there in a trough of low pressure area",
+    options: ["Descending", "Converging and ascending", "Diverging"],
+    answer: "Converging and ascending"
   },
   {
-    question: "Stratospheric circulation",
-    options: ["No effect", "Affects STJ", "Stops winds"],
-    answer: "Affects STJ"
-  },
-  {
-    question: "Wide col produces",
-    options: ["CB", "ST", "NS"],
-    answer: "ST"
-  },
-  {
-    question: "Cold front steepness",
-    options: ["Less steep", "Very steep", "Flat"],
-    answer: "Very steep"
-  },
-  {
-    question: "Cold sector clouds",
-    options: ["CU CB NS", "AC AS", "All types"],
-    answer: "All types"
-  },
-  {
-    question: "Jet stream affecting India",
-    options: ["STJ", "ETJ", "Polar"],
-    answer: "STJ"
-  },
-  {
-    question: "Air in trough",
-    options: ["Descending", "Ascending", "Diverging"],
-    answer: "Ascending"
-  },
-  {
-    question: "Dominant circulation feature",
+    question: "One of the most dominating feature of general circulation of the earth is",
     options: ["Ferrel cell", "Zonal flow", "Trade winds"],
     answer: "Trade winds"
   },
   {
-    question: "Winter hemisphere is",
-    options: ["Cooler", "Warmer", "Same"],
-    answer: "Cooler"
+    question: "N hemisphere is _______ than S hemisphere in summers",
+    options: ["Cooler", "Warmer", "The same"],
+    answer: "Warmer"
   },
   {
-    question: "Highest temperature occurs in",
-    options: ["Tropics", "Oceans", "Subtropics"],
+    question: "Highest temperatures occur in",
+    options: ["Tropics", "Oceans", "Sub tropics N of equator"],
     answer: "Tropics"
   },
   {
-    question: "ITCZ in January",
-    options: ["South", "North", "Equator"],
-    answer: "South"
+    question: "The ITCZ in January lies",
+    options: ["S of equator", "N of equator", "Over Capricorn"],
+    answer: "N of equator"
   },
   {
-    question: "Winter lows move towards",
-    options: ["Europe", "China", "India"],
-    answer: "India"
+    question: "In winter lows and depressions move from Mediterranean towards",
+    options: ["Europe", "Iran", "N India, Afghanistan"],
+    answer: "N India, Afghanistan"
+  },
+  {
+    question: "High pressure exists over continents in",
+    options: ["Winters", "Summers", "Autumn"],
+    answer: "Winters"
+  },
+  {
+    question: "No tropical storms form over",
+    options: ["N Atlantic", "S Pacific", "S Atlantic"],
+    answer: "S Atlantic"
+  },
+  {
+    question: "How far are Mascarene Islands from India?",
+    options: ["3000 km in the N", "4000 km in the S", "5000 km in the W"],
+    answer: "4000 km in the S"
+  },
+  {
+    question: "Mascarene Islands are situated in",
+    options: ["N Atlantic Ocean", "W Pacific Ocean", "Indian Ocean"],
+    answer: "Indian Ocean"
+  },
+  {
+    question: "Indian Ocean Dipole (IOD) causes more rainfall in SW Monsoon, when",
+    options: ["Positive", "Negative", "Neutral"],
+    answer: "Positive"
+  },
+  {
+    question: "Tropical Stratospheric Circulation _______ of Tropopause",
+    options: ["Does not affect temperature", "Affects STJ", "Affects temperature"],
+    answer: "Affects temperature"
+  },
+  {
+    question: "In winters Col in a pressure system may produce",
+    options: ["CB", "ST", "NS"],
+    answer: "ST"
+  },
+  {
+    question: "In a METAR SCT 100 indicates",
+    options: ["5-7 Octa clouds at 1000 m", "1-2 Octa clouds at 100 m", "3-4 Octa clouds at 1000 ft"],
+    answer: "3-4 Octa clouds at 1000 ft"
   }
 ];
 
